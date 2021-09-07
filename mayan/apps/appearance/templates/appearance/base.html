@@ -61,6 +61,7 @@
             {% if facet_menus_link_results %}
                 <div id="sidebar">
                     <div class="list-group">
+                        <ul style="list-style-type:none;">
                         {% for menu_link_result in facet_menus_link_results %}
                             {% if facet_menus_link_results|length > 1 %}
                                 {% if menu_link_result.menu.name not in 'facet,list facet'|split:"," %}
@@ -77,6 +78,7 @@
                                 {% endif %}
                             {% endif %}
                             {% for link_group in menu_link_result.link_groups %}
+                            <li>
                                 {% with link_group.links as object_navigation_links %}
                                 {% with 'true' as hide_active_anchor %}
                                 {% with 'active' as link_class_active %}
@@ -86,8 +88,10 @@
                                 {% endwith %}
                                 {% endwith %}
                                 {% endwith %}
+                            </li>
                             {% endfor %}
                         {% endfor %}
+                        </ul>
                     </div>
                 </div>
             {% endif %}
