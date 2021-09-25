@@ -111,6 +111,7 @@ INSTALLED_APPS = (
     # Document apps
     'mayan.apps.cabinets',
     'mayan.apps.checkouts',
+    'mayan.apps.dashboard',
     'mayan.apps.document_comments',
     'mayan.apps.document_indexing',
     'mayan.apps.document_parsing',
