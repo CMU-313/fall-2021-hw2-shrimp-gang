@@ -7,3 +7,6 @@ urlpatterns_dashboard = [
         view=DashboardView.as_view()
     ),
 ]
+
+urlpatterns = []
+urlpatterns.extend(urlpatterns_dashboard)
