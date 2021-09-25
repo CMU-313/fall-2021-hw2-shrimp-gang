@@ -13,18 +13,14 @@ from mayan.apps.views.generics import (
 )
 from mayan.apps.views.mixins import ExternalObjectViewMixin
 
-from .forms import CabinetListForm
 from .icons import icon_cabinet
 from .links import (
-    link_document_cabinet_add, link_cabinet_child_add, link_cabinet_create
+    link_document_dashboard_list
 )
 from .models import Cabinet
 from .permissions import (
-    permission_cabinet_add_document, permission_cabinet_create,
-    permission_cabinet_delete, permission_cabinet_edit,
-    permission_cabinet_view, permission_cabinet_remove_document
+    permission_dashboard_view
 )
-from .widgets import jstree_data
 
 logger = logging.getLogger(name=__name__)
 
