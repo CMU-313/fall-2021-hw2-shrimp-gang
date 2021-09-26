@@ -47,4 +47,4 @@ class Reviewer(models.Model):
     help_text=_('Extracurriculars Rating of candidate.'),
     verbose_name=_('Extracurriculars Rating'))
 
-    candidate = models.ForeignKey(Candidate, on_delete=models.CASCADE)
+    candidate = models.ForeignKey('Candidate', on_delete=models.CASCADE)
