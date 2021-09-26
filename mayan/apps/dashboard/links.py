@@ -9,7 +9,7 @@ from .icons import ( icon_dashboard_link_icon )
 
 link_document_dashboard_list = Link(
     icon=icon_dashboard_link_icon,
-    text=_('Dashboard'), view='document_dashboard_list'
+    text=_('Dashboard'), url="/dashboard/dashboard"
 )
 
 
