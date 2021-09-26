@@ -13,6 +13,8 @@ from .models import (
     Dashboard
 )
 
+
+# use Mayan App configuration with altered parameters and attributes
 class DashboardApp(MayanAppConfig):
     app_namespace = 'dashboard'
     app_url = 'dashboard'
