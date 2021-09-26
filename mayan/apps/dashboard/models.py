@@ -9,7 +9,10 @@ from django.utils.translation import ugettext_lazy as _
 
 
 ## https://docs.djangoproject.com/en/3.2/topics/db/models/
-
+'''
+ Creates a class for the candidates/reviewees and stores their GPA, Undergraduate
+ college, and Undergraduate major.
+'''
 class Candidate(models.Model):
     gpa = models.DecimalField(
     max_digits=3, decimal_places=2, help_text=_('GPA of the candidate'))
@@ -22,6 +25,10 @@ class Candidate(models.Model):
     max_length=255, help_text=_('Undergraduate Major of the candidate.'),
     verbose_name=_('major'))
 
+'''
+Creates a class for the reviewers and stores their name and all the ratings they assign
+the reviewers.
+'''
 class Reviewer(models.Model):
     name = models.CharField(
     max_length=255, help_text=_('Name of the reviewer.'),
