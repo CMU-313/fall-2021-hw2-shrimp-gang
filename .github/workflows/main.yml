@@ -26,4 +26,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run test
-        run: make test-wheel-via-docker-ubuntu
+        run: make docker-runtest-all
