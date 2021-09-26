@@ -10,3 +10,4 @@ urlpatterns_dashboard = [
 
 urlpatterns = []
 urlpatterns.extend(urlpatterns_dashboard)
+
