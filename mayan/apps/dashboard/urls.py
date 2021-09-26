@@ -7,6 +7,6 @@ urlpatterns_dashboard = [
         view=DashboardView.as_view()
     ),
 ]
-
+# Adds new URL link to the list of URLs so that dashboard tab properly directs to the correct site on the page.
 urlpatterns = []
 urlpatterns.extend(urlpatterns_dashboard)
