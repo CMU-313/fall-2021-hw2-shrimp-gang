@@ -11,6 +11,6 @@ and undergraduate major similarly. For each document listed, the reviewers can c
 clicking on the drop-down menu and select from one of the status: Unassigned, processing and unprocessed.
 Documents that belong to different categories should appear in different columns.  
 
-Automated Testing: Upcoming!
+Automated Testing: Upcoming
 }
 
