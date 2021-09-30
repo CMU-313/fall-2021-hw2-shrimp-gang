@@ -10,3 +10,5 @@ This is the dashboard implementation for resume management.
 - Extended schema
 - Filter buttons/ tag buttons
 - General UI niceness
+# Sketch
+![Sketch](Capture.JPG)
