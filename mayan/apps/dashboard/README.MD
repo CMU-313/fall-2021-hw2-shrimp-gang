@@ -1,5 +1,5 @@
 # Dashboard
-This is the dashboard implementation for resume management. 
+This is the dashboard implementation for resume management. The dashboard feature can be found by running the mayan app in the same way as usual, and navigating to the dashboard tab in the sidebar.
 # Current Completed Features
 - Sidebar Tab
 - View for the web page
