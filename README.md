@@ -71,6 +71,8 @@ at: https://docs.mayan-edms.com/parts/installation.html
 For the instructions on automated and manual testing of the dashboard page
 visit ./mayan/apps/tesing/test/test_instruction.txt
 
+The dashboard feature is located at ./mayan/apps/dashboard
+
 <h2 align="center">Hardware requirements</h2>
 
 - 2 Gigabytes of RAM (1 Gigabyte if OCR is turned off).
