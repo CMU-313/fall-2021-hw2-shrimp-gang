@@ -68,8 +68,9 @@ and working before attempting to install Mayan EDMS.
 For the complete set of installation instructions visit the Mayan EDMS documentation
 at: https://docs.mayan-edms.com/parts/installation.html
 
-For?the?instructions?on?automated?and?manual?testing?
-visit?./mayan/apps/tesing/test/test_instruction.txt
+For the instructions on automated and manual testing of the dashboard papge
+visit ./mayan/apps/tesing/test/test_instruction.txt
+
 <h2 align="center">Hardware requirements</h2>
 
 - 2 Gigabytes of RAM (1 Gigabyte if OCR is turned off).
