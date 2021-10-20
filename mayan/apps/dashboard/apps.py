@@ -13,10 +13,6 @@ from .links import (
     link_document_dashboard_list
 )
 
-from .models import (
-    Dashboard
-)
-
 
 # use Mayan App configuration with altered parameters and attributes
 class DashboardApp(MayanAppConfig):
